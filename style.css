@@ -110,7 +110,7 @@ cursor: pointer;
     cursor: pointer;   
 }
 .empowering-image-content img{
-
+width: 100%;
 }
 @media screen and (max-width:576px) {
     body{
@@ -118,7 +118,8 @@ cursor: pointer;
         margin: 0 auto;
     }
     .contact-button,
-    .navigation{
+    .navigation,
+    .brand-name{
         display: none;
     }
     header{
@@ -142,6 +143,138 @@ cursor: pointer;
   
 
 }
+/* curriculam section */
+.curriculam{
+    background: url(./assets/bg.png);
+    margin: 100px 5px;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+.curriculam-heading{
+    font-family: Quicksand;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 3rem;
+    text-align: center;
+}
+.card-box{
+    justify-content: space-evenly;
+    margin-top: 100px;
+
+}
+.card-image img{
+    padding-top: 15px;
+}
+.card-head{
+    color: rgb(32, 32, 32);
+    font-family: Quicksand;
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-top: 20px;
+}
+.card-content1, .card-content2, .card-content3 ,.card-text-content{
+    flex-direction: column;
+    align-items: center;
+
+}
+.card-content1{
+    width: 300px;
+    box-sizing: border-box;
+    border: 0.94px solid rgb(222, 245, 255);
+    border-radius: 18.86px;
+    transition: transform 1.5s ease 0.3ms;
+    box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+    background: linear-gradient(180.00deg, rgb(222, 245, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+}
+.card-content2{
+    width: 300px;
+    box-sizing: border-box;
+    border: 0.94px solid rgb(255, 244, 220);
+    border-radius: 18.86px;
+    transition: transform 1.5s ease 0.3ms;
+    box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+    background: linear-gradient(180.00deg, rgb(255, 244, 220),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+}
+.card-content3{
+    width: 300px;
+    box-sizing: border-box;
+    border: 0.94px solid rgb(242, 232, 255);
+    border-radius: 18.86px;
+    transition: transform 1.5s ease 0.3ms;
+    box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+    background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+}
+.card-content1:hover{
+    transform: scale(1.1);
+    background: linear-gradient(180.00deg, rgb(222, 245, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+
+}
+.card-content2:hover{
+    transform: scale(1.1);
+    background: linear-gradient(180.00deg, rgb(255, 244, 220),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+}
+.card-content3:hover{
+    transform: scale(1.1);
+    background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+
+}
+.card-text{
+    color: rgb(128, 128, 128);
+    font-family: Raleway;
+    font-size: 0.75rem;
+    font-weight: 500;
+    line-height: 1.15rem;
+    width: 220px;
+    text-align: center;
+
+}
+.read1, .read2, .read3{
+    font-family: Quicksand;
+    font-size: 0.8rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+.read1{color: rgb(100, 200, 255);}
+.read2{color: rgb(240, 170, 0);}
+.read3{color: rgb(135, 0, 255);}
+.for-icon{
+    justify-content: center;
+    gap: 10px;
+    margin: 80px;
+}
+.less , .great{
+    color: rgb(255, 255, 255);
+    font-family: Quicksand;
+    font-size: 42px;
+    font-weight: 900;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    background-color: orange;
+    height: 60px;
+    width: 60px;
+    border-radius: 100%;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+@media screen and (max-width:576px) {
+   .card-box{
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+   } 
+   .card-content1, 
+   .card-content2,
+   .card-content3{
+    width: 90%;
+   }
+   .for-icon{
+    display: none;
+   }
+   
+}
+
 
 
 
