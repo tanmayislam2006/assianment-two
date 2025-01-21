@@ -122,7 +122,8 @@ width: 100%;
     }
     .contact-button,
     .navigation,
-    .brand-name{
+    .brand-name,
+    marquee {
         display: none;
     }
     header{
@@ -148,7 +149,6 @@ width: 100%;
     }
     .empowering-text-content h1, p {    text-align: center;}
     .empowering-image-content img{ width: 100%;}
-  
 
 }
 /* curriculam section */
