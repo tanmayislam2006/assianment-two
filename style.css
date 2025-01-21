@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Bebas+Neue&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Bebas+Neue&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
-
+*{
+    margin: 0;
+    padding: 0;
+}
 body{
     max-width: 1240px;
     margin: 0 auto;
@@ -10,13 +13,16 @@ body{
 .display-flex{
     display: flex;
 }
-.marquee{
-justify-content: center;
-align-items: center;
+marquee span{
+    font-family: Quicksand;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 3.5rem;
+    margin: 5px 0;
 }
 .school{
   justify-content: space-around; 
-  margin: 20px 5px 10px 5px;
+  margin: 20px 0px 10px 0px;
   align-items: center;
 }
 .brand{
@@ -76,7 +82,7 @@ cursor: pointer;
 /* section empowering */
 .empowering{
     justify-content: space-around;
-    margin: 100px 5px;
+    margin: 100px 0px;
 }
 
 .empowering-text-content{
@@ -159,7 +165,7 @@ width: 100%;
 /* curriculam section */
 .curriculam{
     background: url(./assets/bg.png);
-    margin: 100px 5px;
+    margin: 100px 0px;
     background-repeat: no-repeat;
     width: 100%;
 }
@@ -184,6 +190,7 @@ width: 100%;
     font-size: 1.2rem;
     font-weight: 700;
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 .card-content1, .card-content2, .card-content3 ,.card-text-content{
     flex-direction: column;
@@ -239,6 +246,7 @@ width: 100%;
     line-height: 1.15rem;
     width: 220px;
     text-align: center;
+    margin-bottom: 20px;
 
 }
 .read1, .read2, .read3{
@@ -246,6 +254,7 @@ width: 100%;
     font-size: 0.8rem;
     font-weight: 700;
     cursor: pointer;
+    margin: 15px;
 }
 .read1{color: rgb(100, 200, 255);}
 .read2{color: rgb(240, 170, 0);}
@@ -294,12 +303,14 @@ width: 100%;
 /* stories section */
 .stories{
     background: url(./assets/bg.png),linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);
+    /* border: 20px solid red; */
+    padding: 0;
 }
 .stories-card-box{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 10px;
-    margin: 90px;
+    margin: 120px 50px;
     justify-self: center;
     
 }
@@ -375,7 +386,7 @@ margin-top: 10px;
 }
 /* card btn */
 .card-btn{
-    margin-top: -30px;
+    margin-top: -40px;
 }
 .btn{
     border-radius: 47.93px;
