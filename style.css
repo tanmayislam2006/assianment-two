@@ -371,7 +371,7 @@ font-weight: 700;
 line-height: 1.2rem;
 letter-spacing: 0%;
 text-align: left;
-margin-top: 10px;
+margin-top: 10px; 
 }
 /* card btn */
 .card-btn{
@@ -386,6 +386,7 @@ margin-top: 10px;
     line-height: 28.76px;
     text-align: center;
     margin-top: -6px;
+    /* margin-left: 35px; */
     border: 0;
     height: 35px;
     width: 160px;
