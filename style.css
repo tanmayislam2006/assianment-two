@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Bebas+Neue&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Bebas+Neue&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
 body{
     max-width: 1240px;
     margin: 0 auto;
@@ -41,7 +42,9 @@ body{
     font-family: Quicksand;
     font-size: 0.85rem;
     font-weight: 700;
-    cursor: pointer;
+}
+.navigation li a{
+    text-decoration: none;
 }
 /* only color */
 .nav-item1{ color: rgb(254, 163, 1);}
@@ -164,7 +167,7 @@ width: 100%;
 }
 .card-box{
     justify-content: space-evenly;
-    margin-top: 100px;
+    margin-top: 110px;
 
 }
 .card-image img{
@@ -245,7 +248,7 @@ width: 100%;
 .for-icon{
     justify-content: center;
     gap: 10px;
-    margin: 80px;
+    margin: 90px;
 }
 .less , .great{
     color: rgb(255, 255, 255);
@@ -272,7 +275,8 @@ width: 100%;
    .card-content1, 
    .card-content2,
    .card-content3{
-    width: 90%;
+    width: 95%;
+    /* height: 350px; */
    }
    .for-icon{
     display: none;
@@ -291,6 +295,10 @@ width: 100%;
 }
 #brand-name{
     color: rgb(255, 255, 255);
+
+}
+#high{
+    height: 100%;
 }
 .card-head{
     color: rgb(255, 255, 255);
@@ -328,6 +336,9 @@ width: 100%;
     gap: 10px;
     width: 100%;
     cursor: pointer;
+}
+.list a{
+    text-decoration: none;
 }
 @media screen and (max-width:576px) {
     .kid-card{
