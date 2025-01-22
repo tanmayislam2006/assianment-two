@@ -82,7 +82,7 @@ cursor: pointer;
 /* section empowering */
 .empowering{
     justify-content: space-around;
-    margin: 100px 0px;
+    margin: 100px 5px;
 }
 
 .empowering-text-content{
@@ -133,7 +133,6 @@ width: 100%;
     .contact-button,
     .navigation,
     .brand-name,
-    marquee,
     .card-content-large {
         display: none;
     }
@@ -165,7 +164,7 @@ width: 100%;
 /* curriculam section */
 .curriculam{
     background: url(./assets/bg.png);
-    margin: 100px 0px;
+    margin: 100px 5px;
     background-repeat: no-repeat;
     width: 100%;
 }
@@ -304,6 +303,7 @@ width: 100%;
 .stories{
     background: url(./assets/bg.png),linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);
     padding: 0;
+    margin: 10px 5px 2px 5px;
 }
 .stories-card-box{
     display: grid;
@@ -447,6 +447,10 @@ margin-top: 10px;
 }
 #brand-name{
     color: rgb(255, 255, 255);
+    font-family: Quicksand;
+    font-size: 1.5rem;
+    font-weight: 700;
+    cursor: pointer;
 
 }
 #high{
